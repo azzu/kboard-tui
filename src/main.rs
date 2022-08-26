@@ -4,6 +4,7 @@ mod config;
 #[macro_use]
 mod log;
 mod cli;
+mod component;
 
 use std::io;
 use crossterm::ExecutableCommand;

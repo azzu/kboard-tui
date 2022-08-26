@@ -1,0 +1,21 @@
+[package]
+name = "kboard-tui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tui = { version = "0.19.0", features = ["crossterm"], default-features = false }
+crossterm = "0.25.0"
+anyhow = "1.0.61"
+tokio = { version = "1.20.1", features = ["full"] }
+futures = "0.3.23"
+serde = { version = "1.0.143", features = ["derive"] }
+serde_json = "1.0.83"
+select = "0.6.0-alpha.1"
+reqwest = "0.11.11"
+clap = "3.2.17"
+structopt = "0.3.26"
+toml = "0.5.9"
+dirs-next = "2.0.0"
